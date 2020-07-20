@@ -1,15 +1,19 @@
-<h1 class="banner">Stupid Coaching!</h1>
-
-<div class="question">
-<%= @question %>
-<p><em> - You</em></p>
-</div>
+<div class="logo"></div>
 
 
-<div class="answer">
-<%= @answer %>
-<p><em>- Your coach</em></p>
-</div>
-<div class="go_back_link">
-    <%= link_to "Ask another question", ask_path %>
+<div class="block">
+
+  <div class="question">
+    <%= @question %>
+    <p><em> - You</em></p>
+  </div>
+
+  <div class="answer">
+    <strong><%= @answer %></strong>
+    <p><em>- Your coach</em></p>
+  </div>
+
+  <div class="button">
+      <%= link_to "Ask another question", ask_path %>
+  </div>
 </div>

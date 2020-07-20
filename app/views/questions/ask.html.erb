@@ -1,9 +1,14 @@
-<h1 class="banner">Stupid Coaching!</h1>
+<div class="logo">
+  <img src="../../assets/images/robot.png" alt="">
+</div>
 <div>
-<form class="question" id="form" action="/answer" method="get">
-  <label> Ask your coach anything:</label>
-  <input type="text" name="question">
-  <input id="submit" type="submit" value="Ask">
+<form class="question" action="/answer" method="get">
+  <div class="input-frame">
+    <input type="text" name="question" autocomplete="off" required="on">
+  </div>
+  <div class="button">
+    <input type="submit" value="Ask">
+  </div>
 </form>
 </div>
 

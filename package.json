@@ -1,5 +1,8 @@
 {
   "name": "rails-stupid-coaching",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "file-loader": "^6.0.0"
+  }
 }
