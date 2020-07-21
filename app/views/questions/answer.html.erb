@@ -1,19 +1,19 @@
-<div class="logo"></div>
-
+<div class="logo">
+  <%= image_tag("logos/logo.png") %>
+</div>
 
 <div class="block">
-
   <div class="question">
-    <%= @question %>
-    <p><em> - You</em></p>
+    <p>- You:</p>
+    <p><em><%= @question %></em></p>
   </div>
-
+<hr>
   <div class="answer">
-    <strong><%= @answer %></strong>
-    <p><em>- Your coach</em></p>
+    <p>- Your coach:</p>
+    <p><strong><%= @answer %></strong></p>
   </div>
+</div>
 
-  <div class="button">
-      <%= link_to "Ask another question", ask_path %>
-  </div>
+<div class="button">
+    <%= link_to "Ask another question", ask_path %>
 </div>

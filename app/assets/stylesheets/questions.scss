@@ -1,14 +1,20 @@
 body {
   background: white;
+  font-family: arial,sans-serif;
 }
 
 .block {
-  width:600px;
+  width:400px;
   margin: 0 auto;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  box-shadow: #999999 0px 2px 5px;
+  padding: 30px 60px;
 }
 
 .logo {
-  height:170px;
+  width: 321px;
+  margin: 20px auto;
 }
 
 .input-frame {
@@ -16,7 +22,6 @@ body {
   margin: 0 auto;
   border-radius: 8px;
   border: 1px solid #dfe1e5;
-  font-family: 'Open Sans', ;
   height: 44px;
   flex: 1;
   display: flex;
@@ -60,7 +65,6 @@ input:focus {
   font-size: 14px;
   line-height: 27px;
   height: 36px;
-  font-family: arial,sans-serif;
   text-align: center;
   cursor: pointer;
 }
