@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# RAILS STUPID COACHING- ![alt text](https://raw.githubusercontent.com/agukly/rails-stupid-coaching/master/app/assets/images/robot.gif?raw=true)
 
-Things you may want to cover:
 
-* Ruby version
+## Background & Objectives
+- Get familiar with rails(routing,controllers & views)
+- Learn how to separate responsibilities of your program into several sub-methods
 
-* System dependencies
+### Getting Started
 
-* Configuration
+![alt text](https://github.com/agukly/rails-stupid-coaching/blob/master/app/assets/images/sample.png?raw=true)
 
-* Database creation
+Get to know stupid coach logic!
 
-* Database initialization
+- If your the message is I am going to work, the coach will answer Great!
+- If your message has a question mark ? at the end, the coach will answer Silly question, get dressed and go to work!.
+- If your message has a exclamation mark ! at the end, the coach will not be happy
+- Otherwise the coach will answer I don't care, get dressed and go to work!
 
-* How to run the test suite
+### Installing
+Clone the project to your local machine, run the local server `http://localhost:3000/ask` and have some fun asking coach questions!
 
-* Services (job queues, cache servers, search engines, etc.)
+`git@github.com:agukly/rails-stupid-coaching.git`
 
-* Deployment instructions
+### Built With
 
-* ...
+- Rails version: 5.2.4.1
+- Ruby version: 2.6.5 (x86_64-darwin19)
+- HTML
+- CSS
+- webpack
