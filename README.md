@@ -1,6 +1,6 @@
 # README
 
-# RAILS STUPID COACHING- ![alt text](https://raw.githubusercontent.com/agukly/rails-stupid-coaching/master/app/assets/images/robot.gif?raw=true)
+# RAILS STUPID COACHING ![alt text](https://raw.githubusercontent.com/agukly/rails-stupid-coaching/master/app/assets/images/robot.gif?raw=true)
 
 
 ## Background & Objectives
